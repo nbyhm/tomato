@@ -35,6 +35,7 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
+
 			<!-- 跳过单元测试 -->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -43,6 +44,7 @@
 					<skipTests>true</skipTests>
 				</configuration>
 			</plugin>
+
 			<plugin>
 				<groupId>com.spotify</groupId>
 				<artifactId>docker-maven-plugin</artifactId>

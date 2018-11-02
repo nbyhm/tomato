@@ -7,7 +7,7 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
 @SpringBootApplication
-@MapperScan(basePackages = "com.tomato.*.*.mapper")
+@MapperScan(basePackages = "com.tomato.dal.*.mapper")
 public class CenterWebApplication extends SpringBootServletInitializer {
 
 	public static void main(String[] args) {
